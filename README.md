@@ -1,5 +1,7 @@
 # PinSharest
 
+[![Build Status](https://travis-ci.org/tecnobert/pinsharest.svg?branch=master)](https://travis-ci.org/tecnobert/pinsharest)
+
 > Easily create new Pins for Pinterest;
 
 > ### [Demo](https://pinsharest.vercel.app/)
