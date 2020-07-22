@@ -1,4 +1,4 @@
-import "./App.css";
+import "./style/css/App.css";
 
 import Form from "./components/form";
 import Nav from "./components/nav";
