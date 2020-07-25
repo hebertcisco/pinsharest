@@ -1,14 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/css/index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import "./styles/css/index.css";
+
+import * as serviceWorker from "./serviceWorker";
+
+import App from "./App";
+import React from "react";
+import ReactDOM from "react-dom";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.querySelector('[data-js="root"]')
 );
 
 serviceWorker.register();
